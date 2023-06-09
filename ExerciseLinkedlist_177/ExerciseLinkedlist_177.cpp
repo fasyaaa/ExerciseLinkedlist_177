@@ -120,7 +120,7 @@ bool CircularLinkedList::delNode() {
                                        
 
     if (MUHAMMAD == LAST)        //c2 Make current point to LAST.
-        LAST = FIRMANSYAH;      //c3 Make the next field of previous point to the successor of LAST. c4 Mark previous as LAST.
+        LAST = FIRMANSYAH;      //c3 Make the next field of previous point to the successor of LAST.
 
     delete MUHAMMAD;        //c5 Release the memory for the node marked as current.
     return true;
